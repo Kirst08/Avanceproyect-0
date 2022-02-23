@@ -1,0 +1,106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+h1
+{
+    margin-top: 3%;
+    text-align: center;
+}
+.fotoAutor
+{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoAutor img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.fotoAutor p
+{
+    width: 95%;
+    margin-top: 2%;
+    text-align: justify;
+
+}
+
+.cartas
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #573391;
+}
+
+.cartas .carta
+{
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 25%;
+    background-color: #F0F0F0;
+    border-radius: 3%;
+    text-align: center;
+    height: 70%;
+    box-shadow: 0px 15px 28px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 0px 15px 28px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 15px 28px 0px rgba(0,0,0,0.75);
+}
+
+.cartas .carta h3
+{
+    margin-top: 10%;
+    font-size: 25px;
+}
+.cartas .carta ul 
+{
+    margin-top: 5%;
+}
+.cartas .carta ul li
+{
+    list-style: none;
+    margin-top: 2%;
+}
+
+h3
+{
+    text-align: center;
+}
+
+.Familia
+{
+    display: flex;
+}
+h3
+{
+    margin-top: 5%;
+}
+.Familia img
+{
+    width: 700px;
+    height: 500px;
+    
+}
+
+.Familia p
+{
+    margin-top: 10%;
+}
