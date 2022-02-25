@@ -11,6 +11,7 @@ body
 }
 
 h1{
+    margin-top: 15px;
     color: #fff;
     text-align: center;
 }
@@ -60,37 +61,6 @@ h1{
     margin: 10px 0 17px 0;
 }
 
-.row section .icon,
-.linea-central .scroll-icon
-{
-    position: absolute;
-    background: #f2f2f2;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: #ff7979;
-    font-size: 17px;
-    box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
-}
-.linea-central .scroll-icon
-{
-    bottom: 0px;
-    left: 50%;
-    font-size: 25px;
-    transform: translateX(-50%);
-}
-.row-1 section .icon
-{
-    top: 15px;
-    right: -60px;
-}
-.row-2 section .icon
-{
-    top: 15px;
-    left: -60px;
-}
 .timeline .linea-central
 {
     position: absolute;
@@ -99,4 +69,28 @@ h1{
     background: #fff;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media(max-width: 790px){
+    .timeline .linea-central
+    {
+        left: 40px;
+    }
+    .timeline .row
+    {
+        margin: 30px 0 3px 60px;
+    }
+    .timeline .row section{
+        width: 100%;
+    }
+}
+@media(max-width: 440px)
+{
+    .timeline .linea-central
+    {
+        display: none;
+    }
+    .timeline .row{
+        margin: 10px 0;
+    }
 }
